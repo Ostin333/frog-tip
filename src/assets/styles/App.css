@@ -1,0 +1,46 @@
+.main-container {
+  width: 100vw;
+  height: 100vh;
+  background: #FBF0D9;
+  color: #5F4B32;
+  font-family: 'Special Elite', monospace;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  padding: 48px;
+  font-size: 2.8rem;
+  letter-spacing: -.1rem;
+}
+
+.tip-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.image {
+  max-height: 450px;
+  margin: auto;
+  cursor: pointer;
+}
+
+.tip-title {
+  padding-top: 24px;
+  font-size: 1.5rem;
+}
+
+.tip-number {
+  padding-top: 16px;
+  font-size: 1.5rem;
+}
+
+.tip {
+  padding-top: 8px;
+  text-align: center;
+  font-size: 2rem;
+  line-height: 2.5rem;
+}
